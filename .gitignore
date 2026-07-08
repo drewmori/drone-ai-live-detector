@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+runs/
+dataset/
+training_runs/
+reports/
+backups/
+
+*.pt
+*.onnx

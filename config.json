@@ -1,0 +1,30 @@
+﻿{
+  "model": "yolov8n-seg.pt",
+  "confidence": 0.35,
+  "img_size": 640,
+  "small_object_mode": false,
+  "small_object_img_size": 960,
+  "small_object_confidence": 0.25,
+  "inference_every_n_frames": 1,
+  "preview_width": 1280,
+  "preview_height": 720,
+  "confirm_frames": 2,
+  "occlusion_prediction": true,
+  "occlusion_prediction_frames": 90,
+  "occlusion_min_missing_frames": 3,
+  "occlusion_min_tracked_frames": 5,
+  "occlusion_min_velocity": 1.5,
+  "occlusion_max_velocity": 35,
+  "occlusion_min_area": 900,
+  "detect_classes": ["person", "bicycle", "car", "motorcycle", "bus", "truck", "boat", "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "dog", "cat", "bird", "horse", "cow", "sheep"],
+  "snapshot_classes": ["person", "car", "truck", "bus", "motorcycle", "boat", "traffic light", "stop sign", "dog", "cat", "bird", "horse", "cow", "sheep"],
+  "snapshot_cooldown_seconds": 3,
+  "window_title_hint": "",
+  "crop": {
+    "enabled": false,
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  }
+}
