@@ -1,6 +1,6 @@
 ﻿# DJI Mirrored Live AI Detector
 
-This watches a mirrored iPhone/DJI Fly window on Windows, runs YOLO object detection, and shows a separate annotated live view.
+This watches a mirrored iPhone/DJI Fly window on Windows, runs YOLO object detection, and shows a separate annotated live view. Then the detections can be analyzed and edited to teach the model and train its detection sills.
 
 ## Setup
 
